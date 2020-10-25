@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cryptonite</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+  <!-- The Header -->
+  <div id="headerDiv">
+    <nav>
+      <ul>
+        <li class="list"><a href="#" id="homeButton">Home</a></li>
+        <li class="list"><a href="#" id="liveReports">Live reports</a></li>
+        <li class="list"><a href="#" id="About">About</a></li>
+        <li>
+          <input type="search" id="sreachInput" class="col-xs-8" placeholder="Search coin by symbol.." name="search">
+          <button id="searchButton" class="col-xs-4"><i class="fas fa-search"></i></button>
+        </li>
+      </ul>
+    </nav>
+    <h1>Cryptonite</h1>
+  </div>
+
+
+  <!-- About Page -->
+  <div id="aboutMe">
+    <div class="flex-container">
+      <div class="side">
+        <h2>About Me</h2>
+        <p><strong>Private details</strong><br> First name: Yaron<br> Last name: Yakov<br> Age: 22 years old<br> Email:
+          oasis5756@gmail.com
+          <br>City: Tel Aviv<br> State: Isreal
+          <br><br>
+          <strong>Project's description </strong><br>this web application is about the digital trade,which has become
+          very
+          popular over the years.
+          This web application is a single-page application(using Ajax,Jquery,Html5,Css,JS technologies)
+          consists of three pages.
+        </p>
+      </div>
+
+      <div class="profile"><br>
+        <div class="fakeimg"><img src="pics/about_image.jpg"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <!-- The Modal -->
+  <div class="container">
+    <div class="modal fade" id="myModal" data-backdrop="static">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <div class="container">
+              <h4 class="modal-title">You've reached the limit!</h4>
+              <h6 id="modalMessage">Please remove one of these coins</h6>
+            </div>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button id="cancelButton" class="btn btn-secondary" data-dismiss="modal">close</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+  <!-- My JS Source -->
+  <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
