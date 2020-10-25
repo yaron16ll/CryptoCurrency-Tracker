@@ -1,6 +1,71 @@
+# CryptoCurrency_Tracker
+
+CryptoCurrency Tracker SPA, which is based mainly on jQuery and Ajax (RESTful API).
+
+## Topics:
+
+* HTML + CSS
+  - New HTML5 tags
+  - CSS3 media queries and advanced selectors
+  - Dynamic page layouts
+  - Bootstrap & flex
+* JavaScript
+  - Objects
+  - Callbacks, Promises, Async Await
+  - jQuery
+  - Single Page Application foundations
+  - Events
+  - Ajax (RESTful API)
+  - CanvasJS
+  - Documentation
+* External API’s
+
+ 
+
+### Main Page:
+
+![mainPage](./mainPage.png)
+
+
+
+### Mobile Friendly:
+
+![mobile](./mobile.png)
+
+
+
+
+### Live Reports:
+* Shows the USD price of each selected coin, updates every two seconds
+![liveReports.png](./liveReports.png)
+
+
+
+### Example of restriction of choosing coins, up to five coins:
+
+![modal](./modal.png)
+
+
+
+
+### A search Engine for finding a specific coin:
+![speicifcSearchExample](./search.png)
+
+
+
+
+
+
+
+
+
+
+
+### General Description:
+
 This web application consists of three divs(using DOM methods).
 The first page is "Home page",where I display the coins on each Bootstrap card,
-while the application is loading the coins are retrieved from a server(using Ajax,IIFE),then cached in 
+while the application is loading the coins are retrieved from an external server(using Ajax,IIFE),then cached in 
 "coincache" cache.
 
 Each card consists "More info" button which displays the prices of the coin and logo,
