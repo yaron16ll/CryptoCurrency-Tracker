@@ -41,7 +41,7 @@ CryptoCurrency Tracker SPA, which is based mainly on jQuery and Ajax (RESTful AP
 
 
 
-### Example of restriction of choosing coins, up to five coins:
+### Example of choosing coin restriction, up to five coins:
 
 ![modal](./modal.png)
 
