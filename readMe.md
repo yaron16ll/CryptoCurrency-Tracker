@@ -1,4 +1,4 @@
-# CryptoCurrency_Tracker
+# CryptoCurrency Tracker
 
 CryptoCurrency Tracker SPA, which is based mainly on jQuery and Ajax (RESTful API).
 
