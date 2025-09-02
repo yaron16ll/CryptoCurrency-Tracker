@@ -1,6 +1,6 @@
 # CryptoCurrency Tracker
 
-The project is a **client-side SPA (Single Page Application)** that presents information and reports from the world of virtual trading. The application makes calls to various **external APIs** that provide data about digital currencies, such as current status, real-time prices, trading history, buy/sell options, and more. All data is handled and stored entirely on the **client side**, with no need for a backend or database. The development leverages **HTML5**, **CSS3**, **JavaScript**, and **API integration**, focusing on delivering an interactive and dynamic user experience.
+**CryptoCurrency Tracker** is a **client-side SPA (Single Page Application)** that presents information and reports from the world of virtual trading. The application makes calls to various **external APIs** that provide data about digital currencies, such as current status, real-time prices, trading history, buy/sell options, and more. All data is handled and stored entirely on the **client side**, with no need for a backend or database. The development leverages **HTML5**, **CSS3**, **JavaScript**, and **API integration**, focusing on delivering an interactive and dynamic user experience.
 ## Topics:
 
 * HTML + CSS
